@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "1.2.4"
+prophet = "1.0.1"
+plotly = "4.14.3"
+
+[dev-packages]
+jupyter = "1.0.0"
+
+[requires]
+python_version = "3.8.4"
